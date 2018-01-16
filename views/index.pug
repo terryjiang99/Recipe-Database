@@ -1,0 +1,46 @@
+//- Tian Qi Jiang 101020433
+
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Comp2406 Recipes
+    link(href='style.css', rel='stylesheet')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+    script(src='recipePage.js')
+  body
+    #header
+      h1 COMP2406 RECIPES ! ! ! ! ! ! ! ! 
+    #recipeContents
+      label(for='recipeSelect') Recipes
+      br
+      select#recipeSelect(name='recipe')
+        option(value='') No recipes in database
+      button#view View
+      button#submit Submit
+      div#confirmed(class='check')  Recipe Updated
+      br
+      br
+      label Name:
+      br
+      textarea#name(rows= '1', cols='80')
+      br
+      br
+      label Duration:
+      br
+      textarea#duration(rows='1' , cols='20')
+      br
+      br
+      label Ingredients:
+      br
+      textarea#ingredients(rows='10' , cols='100')
+      br
+      br
+      label Directions:
+      br
+      textarea#directions(rows='10' , cols='100')
+      br
+      br
+      label Notes:
+      br
+      textarea#notes(rows='5' , cols='50')

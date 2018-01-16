@@ -1,0 +1,28 @@
+/* Tian Qi Jiang 101020433 */
+body{
+	background-color:fuchsia;  
+	color:white;
+}
+
+h1{
+	color:cyan;
+	text-shadow: 1px 2px #000;
+	text-align: center;
+
+}
+button{
+	margin-top:5px;
+	border-radius:5px;
+	width:60px;
+	padding:4px;
+}
+#view{
+	background-color:greenyellow;
+}
+#submit{ 
+	background-color: orangered;
+}
+
+.check{
+	color:#0f0;
+}
